@@ -1,0 +1,653 @@
+START TIME :  9:13:00.28 
+Downloading Microsoft Visual C++ Redistributable ... 
+
+BITSADMIN version 3.0
+BITS administration utility.
+(C) Copyright Microsoft Corp.
+
+Transfer complete.
+Installing Microsoft Visual C++ Redistributable ... 
+Microsoft Visual C++ Redistributable has been installed 
+The detected version of python is 3.10 
+A valid python is detected at system level 
+Installing dependent modules ... 
+
+BITSADMIN version 3.0
+BITS administration utility.
+(C) Copyright Microsoft Corp.
+
+Transfer complete.
+C:\kandikits\python\3.9.8;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Android;C:\Windows\System32;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MATLAB\R2022b\bin;C:\Program Files\Git\cmd;C:\Users\Sherwyn\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\Sherwyn\AppData\Local\Programs\Python\Python39;C:\Users\Sherwyn\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Sherwyn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sherwyn\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.2\bin; 
+Requirement already satisfied: virtualenv in c:\kandikits\python\3.9.8\lib\site-packages (20.23.0)
+Requirement already satisfied: distlib<1,>=0.3.6 in c:\kandikits\python\3.9.8\lib\site-packages (from virtualenv) (0.3.6)
+Requirement already satisfied: filelock<4,>=3.11 in c:\kandikits\python\3.9.8\lib\site-packages (from virtualenv) (3.12.0)
+Requirement already satisfied: platformdirs<4,>=3.2 in c:\kandikits\python\3.9.8\lib\site-packages (from virtualenv) (3.5.1)
+created virtual environment CPython3.9.8.final.0-64 in 57636ms
+  creator CPython3Windows(dest=C:\kandikits\realtime-object-detection\object-detection-env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\Sherwyn\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==23.1.2, setuptools==67.8.0, wheel==0.40.0
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+C:\kandikits\realtime-object-detection\object-detection-env\Scripts 
+C:\kandikits\realtime-object-detection 
+Requirement already satisfied: pip in c:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages (23.1.2)
+Requirement already satisfied: setuptools in c:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages (67.8.0)
+Collecting setuptools
+  Using cached setuptools-68.0.0-py3-none-any.whl (804 kB)
+Requirement already satisfied: wheel in c:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages (0.40.0)
+Installing collected packages: setuptools
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 67.8.0
+    Uninstalling setuptools-67.8.0:
+      Successfully uninstalled setuptools-67.8.0
+Successfully installed setuptools-68.0.0
+Collecting jupyter==1.0.0 (from -r requirements.txt (line 1))
+  Using cached jupyter-1.0.0-py2.py3-none-any.whl (2.7 kB)
+Collecting numpy==1.19.5 (from -r requirements.txt (line 2))
+  Using cached numpy-1.19.5-cp39-cp39-win_amd64.whl (13.3 MB)
+Collecting pandas==1.3.1 (from -r requirements.txt (line 3))
+  Downloading pandas-1.3.1-cp39-cp39-win_amd64.whl (10.4 MB)
+     ---------------------------------------- 10.4/10.4 MB 2.7 MB/s eta 0:00:00
+Collecting requests==2.26.0 (from -r requirements.txt (line 4))
+  Downloading requests-2.26.0-py2.py3-none-any.whl (62 kB)
+     -------------------------------------- 62.3/62.3 kB 825.6 kB/s eta 0:00:00
+Collecting pillow==8.3.1 (from -r requirements.txt (line 5))
+  Downloading Pillow-8.3.1-1-cp39-cp39-win_amd64.whl (3.2 MB)
+     ---------------------------------------- 3.2/3.2 MB 2.5 MB/s eta 0:00:00
+Collecting opencv-python==4.5.4.58 (from -r requirements.txt (line 6))
+  Downloading opencv_python-4.5.4.58-cp39-cp39-win_amd64.whl (35.1 MB)
+     ---------------------------------------- 35.1/35.1 MB 1.4 MB/s eta 0:00:00
+Collecting pyyaml==5.4.1 (from -r requirements.txt (line 7))
+  Downloading PyYAML-5.4.1-cp39-cp39-win_amd64.whl (213 kB)
+     ------------------------------------ 213.4/213.4 kB 723.1 kB/s eta 0:00:00
+Collecting tqdm==4.51.0 (from -r requirements.txt (line 8))
+  Downloading tqdm-4.51.0-py2.py3-none-any.whl (70 kB)
+     -------------------------------------- 71.0/71.0 kB 389.3 kB/s eta 0:00:00
+Collecting torch==1.8.1 (from -r requirements.txt (line 9))
+  Downloading torch-1.8.1-cp39-cp39-win_amd64.whl (190.5 MB)
+     ------------------------------------ 190.5/190.5 MB 102.5 kB/s eta 0:00:00
+Collecting torchvision==0.9.1 (from -r requirements.txt (line 10))
+  Downloading torchvision-0.9.1-cp39-cp39-win_amd64.whl (852 kB)
+     -------------------------------------- 852.4/852.4 kB 1.7 MB/s eta 0:00:00
+Collecting matplotlib==3.4.2 (from -r requirements.txt (line 11))
+  Downloading matplotlib-3.4.2-cp39-cp39-win_amd64.whl (7.1 MB)
+     ---------------------------------------- 7.1/7.1 MB 4.4 MB/s eta 0:00:00
+Collecting seaborn==0.11.2 (from -r requirements.txt (line 12))
+  Downloading seaborn-0.11.2-py3-none-any.whl (292 kB)
+     -------------------------------------- 292.8/292.8 kB 1.5 MB/s eta 0:00:00
+Collecting notebook (from jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached notebook-6.5.4-py3-none-any.whl (529 kB)
+Collecting qtconsole (from jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached qtconsole-5.4.3-py3-none-any.whl (121 kB)
+Collecting jupyter-console (from jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached jupyter_console-6.6.3-py3-none-any.whl (24 kB)
+Collecting nbconvert (from jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading nbconvert-7.6.0-py3-none-any.whl (290 kB)
+     -------------------------------------- 290.4/290.4 kB 3.6 MB/s eta 0:00:00
+Collecting ipykernel (from jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading ipykernel-6.23.3-py3-none-any.whl (152 kB)
+     -------------------------------------- 152.8/152.8 kB 1.3 MB/s eta 0:00:00
+Collecting ipywidgets (from jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached ipywidgets-8.0.6-py3-none-any.whl (138 kB)
+Collecting python-dateutil>=2.7.3 (from pandas==1.3.1->-r requirements.txt (line 3))
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting pytz>=2017.3 (from pandas==1.3.1->-r requirements.txt (line 3))
+  Using cached pytz-2023.3-py2.py3-none-any.whl (502 kB)
+Collecting urllib3<1.27,>=1.21.1 (from requests==2.26.0->-r requirements.txt (line 4))
+  Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
+     -------------------------------------- 143.1/143.1 kB 1.2 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17 (from requests==2.26.0->-r requirements.txt (line 4))
+  Using cached certifi-2023.5.7-py3-none-any.whl (156 kB)
+Collecting charset-normalizer~=2.0.0 (from requests==2.26.0->-r requirements.txt (line 4))
+  Using cached charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting idna<4,>=2.5 (from requests==2.26.0->-r requirements.txt (line 4))
+  Using cached idna-3.4-py3-none-any.whl (61 kB)
+Collecting typing-extensions (from torch==1.8.1->-r requirements.txt (line 9))
+  Using cached typing_extensions-4.6.3-py3-none-any.whl (31 kB)
+Collecting cycler>=0.10 (from matplotlib==3.4.2->-r requirements.txt (line 11))
+  Using cached cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting kiwisolver>=1.0.1 (from matplotlib==3.4.2->-r requirements.txt (line 11))
+  Using cached kiwisolver-1.4.4-cp39-cp39-win_amd64.whl (55 kB)
+Collecting pyparsing>=2.2.1 (from matplotlib==3.4.2->-r requirements.txt (line 11))
+  Downloading pyparsing-3.1.0-py3-none-any.whl (102 kB)
+     -------------------------------------- 102.6/102.6 kB 3.0 MB/s eta 0:00:00
+Collecting scipy>=1.0 (from seaborn==0.11.2->-r requirements.txt (line 12))
+  Using cached scipy-1.10.1-cp39-cp39-win_amd64.whl (42.5 MB)
+Collecting six>=1.5 (from python-dateutil>=2.7.3->pandas==1.3.1->-r requirements.txt (line 3))
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting comm>=0.1.1 (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached comm-0.1.3-py3-none-any.whl (6.6 kB)
+Collecting debugpy>=1.6.5 (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached debugpy-1.6.7-cp39-cp39-win_amd64.whl (4.8 MB)
+Collecting ipython>=7.23.1 (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached ipython-8.14.0-py3-none-any.whl (798 kB)
+Collecting jupyter-client>=6.1.12 (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading jupyter_client-8.3.0-py3-none-any.whl (103 kB)
+     ------------------------------------ 103.2/103.2 kB 494.6 kB/s eta 0:00:00
+Collecting jupyter-core!=5.0.*,>=4.12 (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading jupyter_core-5.3.1-py3-none-any.whl (93 kB)
+     ---------------------------------------- 93.7/93.7 kB 1.1 MB/s eta 0:00:00
+Collecting matplotlib-inline>=0.1 (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+Collecting nest-asyncio (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+Collecting packaging (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached packaging-23.1-py3-none-any.whl (48 kB)
+Collecting psutil (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached psutil-5.9.5-cp36-abi3-win_amd64.whl (255 kB)
+Collecting pyzmq>=20 (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached pyzmq-25.1.0-cp39-cp39-win_amd64.whl (1.1 MB)
+Collecting tornado>=6.1 (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached tornado-6.3.2-cp38-abi3-win_amd64.whl (428 kB)
+Collecting traitlets>=5.4.0 (from ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached traitlets-5.9.0-py3-none-any.whl (117 kB)
+Collecting widgetsnbextension~=4.0.7 (from ipywidgets->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached widgetsnbextension-4.0.7-py3-none-any.whl (2.1 MB)
+Collecting jupyterlab-widgets~=3.0.7 (from ipywidgets->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached jupyterlab_widgets-3.0.7-py3-none-any.whl (198 kB)
+Collecting prompt-toolkit>=3.0.30 (from jupyter-console->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached prompt_toolkit-3.0.38-py3-none-any.whl (385 kB)
+Collecting pygments (from jupyter-console->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached Pygments-2.15.1-py3-none-any.whl (1.1 MB)
+Collecting beautifulsoup4 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached beautifulsoup4-4.12.2-py3-none-any.whl (142 kB)
+Collecting bleach!=5.0.0 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached bleach-6.0.0-py3-none-any.whl (162 kB)
+Collecting defusedxml (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting importlib-metadata>=3.6 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading importlib_metadata-6.7.0-py3-none-any.whl (22 kB)
+Collecting jinja2>=3.0 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+Collecting jupyterlab-pygments (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)
+Collecting markupsafe>=2.0 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached MarkupSafe-2.1.3-cp39-cp39-win_amd64.whl (17 kB)
+Collecting mistune<4,>=2.0.3 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading mistune-3.0.1-py3-none-any.whl (47 kB)
+     -------------------------------------- 48.0/48.0 kB 301.8 kB/s eta 0:00:00
+Collecting nbclient>=0.5.0 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached nbclient-0.8.0-py3-none-any.whl (73 kB)
+Collecting nbformat>=5.7 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached nbformat-5.9.0-py3-none-any.whl (77 kB)
+Collecting pandocfilters>=1.4.1 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
+Collecting tinycss2 (from nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached tinycss2-1.2.1-py3-none-any.whl (21 kB)
+Collecting argon2-cffi (from notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached argon2_cffi-21.3.0-py3-none-any.whl (14 kB)
+Collecting ipython-genutils (from notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting Send2Trash>=1.8.0 (from notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached Send2Trash-1.8.2-py3-none-any.whl (18 kB)
+Collecting terminado>=0.8.3 (from notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached terminado-0.17.1-py3-none-any.whl (17 kB)
+Collecting prometheus-client (from notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached prometheus_client-0.17.0-py3-none-any.whl (60 kB)
+Collecting nbclassic>=0.4.7 (from notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached nbclassic-1.0.0-py3-none-any.whl (10.0 MB)
+Collecting qtpy>=2.0.1 (from qtconsole->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached QtPy-2.3.1-py3-none-any.whl (84 kB)
+Collecting webencodings (from bleach!=5.0.0->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting zipp>=0.5 (from importlib-metadata>=3.6->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached zipp-3.15.0-py3-none-any.whl (6.8 kB)
+Collecting backcall (from ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting decorator (from ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting jedi>=0.16 (from ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached jedi-0.18.2-py2.py3-none-any.whl (1.6 MB)
+Collecting pickleshare (from ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting stack-data (from ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached stack_data-0.6.2-py3-none-any.whl (24 kB)
+Collecting colorama (from ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting platformdirs>=2.5 (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading platformdirs-3.8.0-py3-none-any.whl (16 kB)
+Collecting pywin32>=300 (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached pywin32-306-cp39-cp39-win_amd64.whl (9.3 MB)
+Collecting jupyter-server>=1.8 (from nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached jupyter_server-2.6.0-py3-none-any.whl (375 kB)
+Collecting notebook-shim>=0.2.3 (from nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached notebook_shim-0.2.3-py3-none-any.whl (13 kB)
+Collecting fastjsonschema (from nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached fastjsonschema-2.17.1-py3-none-any.whl (23 kB)
+Collecting jsonschema>=2.6 (from nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached jsonschema-4.17.3-py3-none-any.whl (90 kB)
+Collecting wcwidth (from prompt-toolkit>=3.0.30->jupyter-console->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached wcwidth-0.2.6-py2.py3-none-any.whl (29 kB)
+Collecting pywinpty>=1.1.0 (from terminado>=0.8.3->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached pywinpty-2.0.10-cp39-none-win_amd64.whl (1.4 MB)
+Collecting argon2-cffi-bindings (from argon2-cffi->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl (30 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached soupsieve-2.4.1-py3-none-any.whl (36 kB)
+Collecting parso<0.9.0,>=0.8.0 (from jedi>=0.16->ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached parso-0.8.3-py2.py3-none-any.whl (100 kB)
+Collecting attrs>=17.4.0 (from jsonschema>=2.6->nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached attrs-23.1.0-py3-none-any.whl (61 kB)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 (from jsonschema>=2.6->nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached pyrsistent-0.19.3-cp39-cp39-win_amd64.whl (62 kB)
+Collecting anyio>=3.1.0 (from jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached anyio-3.7.0-py3-none-any.whl (80 kB)
+Collecting jupyter-events>=0.6.0 (from jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached jupyter_events-0.6.3-py3-none-any.whl (18 kB)
+Collecting jupyter-server-terminals (from jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached jupyter_server_terminals-0.4.4-py3-none-any.whl (13 kB)
+Collecting overrides (from jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached overrides-7.3.1-py3-none-any.whl (17 kB)
+Collecting websocket-client (from jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading websocket_client-1.6.1-py3-none-any.whl (56 kB)
+     -------------------------------------- 56.9/56.9 kB 299.2 kB/s eta 0:00:00
+Collecting cffi>=1.0.1 (from argon2-cffi-bindings->argon2-cffi->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached cffi-1.15.1-cp39-cp39-win_amd64.whl (179 kB)
+Collecting executing>=1.2.0 (from stack-data->ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached executing-1.2.0-py2.py3-none-any.whl (24 kB)
+Collecting asttokens>=2.1.0 (from stack-data->ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached asttokens-2.2.1-py2.py3-none-any.whl (26 kB)
+Collecting pure-eval (from stack-data->ipython>=7.23.1->ipykernel->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Collecting sniffio>=1.1 (from anyio>=3.1.0->jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached sniffio-1.3.0-py3-none-any.whl (10 kB)
+Collecting exceptiongroup (from anyio>=3.1.0->jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached exceptiongroup-1.1.1-py3-none-any.whl (14 kB)
+Collecting pycparser (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Collecting python-json-logger>=2.0.4 (from jupyter-events>=0.6.0->jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached python_json_logger-2.0.7-py3-none-any.whl (8.1 kB)
+Collecting rfc3339-validator (from jupyter-events>=0.6.0->jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+Collecting rfc3986-validator>=0.1.1 (from jupyter-events>=0.6.0->jupyter-server>=1.8->nbclassic>=0.4.7->notebook->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+Collecting fqdn (from jsonschema>=2.6->nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Collecting isoduration (from jsonschema>=2.6->nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached isoduration-20.11.0-py3-none-any.whl (11 kB)
+Collecting jsonpointer>1.13 (from jsonschema>=2.6->nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading jsonpointer-2.4-py2.py3-none-any.whl (7.8 kB)
+Collecting uri-template (from jsonschema>=2.6->nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Downloading uri_template-1.3.0-py3-none-any.whl (11 kB)
+Collecting webcolors>=1.11 (from jsonschema>=2.6->nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached webcolors-1.13-py3-none-any.whl (14 kB)
+Collecting arrow>=0.15.0 (from isoduration->jsonschema>=2.6->nbformat>=5.7->nbconvert->jupyter==1.0.0->-r requirements.txt (line 1))
+  Using cached arrow-1.2.3-py3-none-any.whl (66 kB)
+Installing collected packages: webencodings, wcwidth, pywin32, pytz, pure-eval, pickleshare, ipython-genutils, fastjsonschema, executing, backcall, zipp, widgetsnbextension, websocket-client, webcolors, urllib3, uri-template, typing-extensions, traitlets, tqdm, tornado, tinycss2, soupsieve, sniffio, six, Send2Trash, rfc3986-validator, pyzmq, pyyaml, pywinpty, python-json-logger, pyrsistent, pyparsing, pygments, pycparser, psutil, prompt-toolkit, prometheus-client, platformdirs, pillow, parso, pandocfilters, packaging, overrides, numpy, nest-asyncio, mistune, markupsafe, kiwisolver, jupyterlab-widgets, jupyterlab-pygments, jsonpointer, idna, fqdn, exceptiongroup, defusedxml, decorator, debugpy, cycler, colorama, charset-normalizer, certifi, attrs, torch, terminado, scipy, rfc3339-validator, requests, qtpy, python-dateutil, opencv-python, matplotlib-inline, jupyter-core, jsonschema, jinja2, jedi, importlib-metadata, comm, cffi, bleach, beautifulsoup4, asttokens, anyio, torchvision, stack-data, pandas, nbformat, matplotlib, jupyter-server-terminals, jupyter-client, arrow, argon2-cffi-bindings, seaborn, nbclient, isoduration, ipython, argon2-cffi, nbconvert, ipykernel, qtconsole, jupyter-events, jupyter-console, ipywidgets, jupyter-server, notebook-shim, nbclassic, notebook, jupyter
+Successfully installed Send2Trash-1.8.2 anyio-3.7.0 argon2-cffi-21.3.0 argon2-cffi-bindings-21.2.0 arrow-1.2.3 asttokens-2.2.1 attrs-23.1.0 backcall-0.2.0 beautifulsoup4-4.12.2 bleach-6.0.0 certifi-2023.5.7 cffi-1.15.1 charset-normalizer-2.0.12 colorama-0.4.6 comm-0.1.3 cycler-0.11.0 debugpy-1.6.7 decorator-5.1.1 defusedxml-0.7.1 exceptiongroup-1.1.1 executing-1.2.0 fastjsonschema-2.17.1 fqdn-1.5.1 idna-3.4 importlib-metadata-6.7.0 ipykernel-6.23.3 ipython-8.14.0 ipython-genutils-0.2.0 ipywidgets-8.0.6 isoduration-20.11.0 jedi-0.18.2 jinja2-3.1.2 jsonpointer-2.4 jsonschema-4.17.3 jupyter-1.0.0 jupyter-client-8.3.0 jupyter-console-6.6.3 jupyter-core-5.3.1 jupyter-events-0.6.3 jupyter-server-2.6.0 jupyter-server-terminals-0.4.4 jupyterlab-pygments-0.2.2 jupyterlab-widgets-3.0.7 kiwisolver-1.4.4 markupsafe-2.1.3 matplotlib-3.4.2 matplotlib-inline-0.1.6 mistune-3.0.1 nbclassic-1.0.0 nbclient-0.8.0 nbconvert-7.6.0 nbformat-5.9.0 nest-asyncio-1.5.6 notebook-6.5.4 notebook-shim-0.2.3 numpy-1.19.5 opencv-python-4.5.4.58 overrides-7.3.1 packaging-23.1 pandas-1.3.1 pandocfilters-1.5.0 parso-0.8.3 pickleshare-0.7.5 pillow-8.3.1 platformdirs-3.8.0 prometheus-client-0.17.0 prompt-toolkit-3.0.38 psutil-5.9.5 pure-eval-0.2.2 pycparser-2.21 pygments-2.15.1 pyparsing-3.1.0 pyrsistent-0.19.3 python-dateutil-2.8.2 python-json-logger-2.0.7 pytz-2023.3 pywin32-306 pywinpty-2.0.10 pyyaml-5.4.1 pyzmq-25.1.0 qtconsole-5.4.3 qtpy-2.3.1 requests-2.26.0 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 scipy-1.10.1 seaborn-0.11.2 six-1.16.0 sniffio-1.3.0 soupsieve-2.4.1 stack-data-0.6.2 terminado-0.17.1 tinycss2-1.2.1 torch-1.8.1 torchvision-0.9.1 tornado-6.3.2 tqdm-4.51.0 traitlets-5.9.0 typing-extensions-4.6.3 uri-template-1.3.0 urllib3-1.26.16 wcwidth-0.2.6 webcolors-1.13 webencodings-0.5.1 websocket-client-1.6.1 widgetsnbextension-4.0.7 zipp-3.15.0
+
+BITSADMIN version 3.0
+BITS administration utility.
+(C) Copyright Microsoft Corp.
+
+Transfer complete.
+Repo downloaded successfully 
+Extracting the repo ... 
+x realtime-object-detection/.git/
+x realtime-object-detection/.git/COMMIT_EDITMSG
+x realtime-object-detection/.git/config
+x realtime-object-detection/.git/description
+x realtime-object-detection/.git/FETCH_HEAD
+x realtime-object-detection/.git/HEAD
+x realtime-object-detection/.git/hooks/
+x realtime-object-detection/.git/hooks/applypatch-msg.sample
+x realtime-object-detection/.git/hooks/commit-msg.sample
+x realtime-object-detection/.git/hooks/fsmonitor-watchman.sample
+x realtime-object-detection/.git/hooks/post-update.sample
+x realtime-object-detection/.git/hooks/pre-applypatch.sample
+x realtime-object-detection/.git/hooks/pre-commit.sample
+x realtime-object-detection/.git/hooks/pre-merge-commit.sample
+x realtime-object-detection/.git/hooks/prepare-commit-msg.sample
+x realtime-object-detection/.git/hooks/pre-push.sample
+x realtime-object-detection/.git/hooks/pre-rebase.sample
+x realtime-object-detection/.git/hooks/pre-receive.sample
+x realtime-object-detection/.git/hooks/push-to-checkout.sample
+x realtime-object-detection/.git/hooks/update.sample
+x realtime-object-detection/.git/index
+x realtime-object-detection/.git/info/
+x realtime-object-detection/.git/info/exclude
+x realtime-object-detection/.git/logs/
+x realtime-object-detection/.git/logs/HEAD
+x realtime-object-detection/.git/logs/refs/
+x realtime-object-detection/.git/logs/refs/heads/
+x realtime-object-detection/.git/logs/refs/heads/main
+x realtime-object-detection/.git/logs/refs/remotes/
+x realtime-object-detection/.git/logs/refs/remotes/origin/
+x realtime-object-detection/.git/logs/refs/remotes/origin/HEAD
+x realtime-object-detection/.git/logs/refs/remotes/origin/main
+x realtime-object-detection/.git/objects/
+x realtime-object-detection/.git/objects/00/
+x realtime-object-detection/.git/objects/00/5e40ef0b5383ee3f7ed9b5af55847451ef074c
+x realtime-object-detection/.git/objects/01/
+x realtime-object-detection/.git/objects/01/b72863dffb8c5e9cfee6c17dfa74e124188014
+x realtime-object-detection/.git/objects/03/
+x realtime-object-detection/.git/objects/03/3f8eca33b23cf1c80facc429b04ca6a51761ff
+x realtime-object-detection/.git/objects/06/
+x realtime-object-detection/.git/objects/06/7894598b0b49f8a744e19478d7fee680cbded1
+x realtime-object-detection/.git/objects/0c/
+x realtime-object-detection/.git/objects/0c/adabe777a9d56be158e6b994ec295ce30a4f64
+x realtime-object-detection/.git/objects/0f/
+x realtime-object-detection/.git/objects/0f/6b1902e1dd2156a8a00a88bfb2a2e25e2efeda
+x realtime-object-detection/.git/objects/1e/
+x realtime-object-detection/.git/objects/1e/b85196dcf13708e1158b9bf43b938dec85466a
+x realtime-object-detection/.git/objects/1f/
+x realtime-object-detection/.git/objects/1f/db17d75611746d131fac0347f1e697b1fedbcc
+x realtime-object-detection/.git/objects/33/
+x realtime-object-detection/.git/objects/33/2b2e13506ae3293a7e35fd2dc063e40ce70de8
+x realtime-object-detection/.git/objects/57/
+x realtime-object-detection/.git/objects/57/f8af098f9982dcac07f4f9af0b8b8895bb39e0
+x realtime-object-detection/.git/objects/5a/
+x realtime-object-detection/.git/objects/5a/cd5c847a89bb7a712d31ccd9c90a3b1437a66e
+x realtime-object-detection/.git/objects/5c/
+x realtime-object-detection/.git/objects/5c/a20abe8c774ecb22fce4a51ee6ff708c8a5929
+x realtime-object-detection/.git/objects/6c/
+x realtime-object-detection/.git/objects/6c/c63210ccd71ec731b8cfb84b9455ec2f93fa15
+x realtime-object-detection/.git/objects/76/
+x realtime-object-detection/.git/objects/76/11a9ae3466177a852b60fca46b475b1d88ed06
+x realtime-object-detection/.git/objects/80/
+x realtime-object-detection/.git/objects/80/e1667b7814a395e62e955d8214e43472a6003d
+x realtime-object-detection/.git/objects/88/
+x realtime-object-detection/.git/objects/88/7139843c8acbe494e3fe6b988ca3311fc19c00
+x realtime-object-detection/.git/objects/8b/
+x realtime-object-detection/.git/objects/8b/4480911d88aac524b9e2b8fc804f957655ad5d
+x realtime-object-detection/.git/objects/8b/c4734c66feac72b8d546af191f6f502b489858
+x realtime-object-detection/.git/objects/94/
+x realtime-object-detection/.git/objects/94/de53fe6568ecaa354683c30f0f2dba6033b683
+x realtime-object-detection/.git/objects/a1/
+x realtime-object-detection/.git/objects/a1/0fb896d88f7522a25eeccb8507b1aa64aff0c2
+x realtime-object-detection/.git/objects/a7/
+x realtime-object-detection/.git/objects/a7/a9ba801bd65b024a4c1d7776ef34165a0d5269
+x realtime-object-detection/.git/objects/b4/
+x realtime-object-detection/.git/objects/b4/8e5347137ee92cb9891e4a2d02cc6d133a18c7
+x realtime-object-detection/.git/objects/b7/
+x realtime-object-detection/.git/objects/b7/7895a6e6852845b06a59dad2d36f582d4c8c55
+x realtime-object-detection/.git/objects/cc/
+x realtime-object-detection/.git/objects/cc/0485dc4d67471665b1f504f2388e032515403f
+x realtime-object-detection/.git/objects/ce/
+x realtime-object-detection/.git/objects/ce/200d7887951d55fd0fe3bb82bd3a152cfff0e7
+x realtime-object-detection/.git/objects/d6/
+x realtime-object-detection/.git/objects/d6/38adf11d9f9c7cae1502a3c94866c5089ec9d0
+x realtime-object-detection/.git/objects/db/
+x realtime-object-detection/.git/objects/db/81f5937204a0e6b40482b5c6274fb276e68ed0
+x realtime-object-detection/.git/objects/e5/
+x realtime-object-detection/.git/objects/e5/6eab49d0047de837ea030cf70ae80eb60c8b3b
+x realtime-object-detection/.git/objects/e6/
+x realtime-object-detection/.git/objects/e6/3fdb8c73b231896e2517eeb7b1e912a50c7d97
+x realtime-object-detection/.git/objects/f2/
+x realtime-object-detection/.git/objects/f2/5e970d39a5f5939b7a8438a2561bea5b10100b
+x realtime-object-detection/.git/objects/f2/88702d2fa16d3cdf0035b15a9fcbc552cd88e7
+x realtime-object-detection/.git/objects/f5/
+x realtime-object-detection/.git/objects/f5/28da37ec35ac49e09fb0d4a047b641f31dc6db
+x realtime-object-detection/.git/objects/info/
+x realtime-object-detection/.git/objects/pack/
+x realtime-object-detection/.git/ORIG_HEAD
+x realtime-object-detection/.git/refs/
+x realtime-object-detection/.git/refs/heads/
+x realtime-object-detection/.git/refs/heads/main
+x realtime-object-detection/.git/refs/remotes/
+x realtime-object-detection/.git/refs/remotes/origin/
+x realtime-object-detection/.git/refs/remotes/origin/HEAD
+x realtime-object-detection/.git/refs/remotes/origin/main
+x realtime-object-detection/.git/refs/tags/
+x realtime-object-detection/.git/refs/tags/v1.0.0
+x realtime-object-detection/.gitignore
+x realtime-object-detection/kit_installer.bat
+x realtime-object-detection/kit_installer.zip
+x realtime-object-detection/LICENSE
+x realtime-object-detection/modules-installer.bat
+x realtime-object-detection/modules-installer.zip
+x realtime-object-detection/python-installer.bat
+x realtime-object-detection/python-installer.zip
+x realtime-object-detection/README.md
+x realtime-object-detection/Realtime Object Detection.ipynb
+x realtime-object-detection/requirements.txt
+END TIME :  9:33:14.32 
+[I 09:59:10.443 NotebookApp] Serving notebooks from local directory: C:\kandikits\realtime-object-detection\realtime-object-detection
+[I 09:59:10.453 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 09:59:10.454 NotebookApp] http://localhost:8888/?token=d4c91c80bca6b37aa99b19fe3d53d534b739a58af5e45415
+[I 09:59:10.454 NotebookApp]  or http://127.0.0.1:8888/?token=d4c91c80bca6b37aa99b19fe3d53d534b739a58af5e45415
+[I 09:59:10.454 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:59:11.655 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Sherwyn/AppData/Roaming/jupyter/runtime/nbserver-432-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=d4c91c80bca6b37aa99b19fe3d53d534b739a58af5e45415
+     or http://127.0.0.1:8888/?token=d4c91c80bca6b37aa99b19fe3d53d534b739a58af5e45415
+0.20s - Debugger warning: The os.path.realpath.__code__.co_filename (ntpath.py)
+0.00s - is not absolute, which may make the debugger miss breakpoints.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 10:00:10.861 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+[I 10:00:13.827 NotebookApp] Kernel started: c22ef7d9-d7d9-41e5-a53d-fd44e4fdbb75, name: python3
+0.03s - Debugger warning: The os.path.realpath.__code__.co_filename (ntpath.py)
+0.00s - is not absolute, which may make the debugger miss breakpoints.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 10:02:13.073 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[W 10:02:13.074 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+[I 10:04:11.870 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[W 10:04:11.871 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+[I 10:06:11.869 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[W 10:06:11.870 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+[I 10:08:12.560 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[W 10:08:12.561 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+[I 10:10:11.877 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[W 10:10:11.879 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\nbformat\__init__.py:129: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\contents\manager.py:353: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate_nb(model['content'])
+[I 10:10:39.087 NotebookApp] Starting buffering for c22ef7d9-d7d9-41e5-a53d-fd44e4fdbb75:84a2e8dafd004d86b73a3fbf06c76cc4
+[I 10:10:39.154 NotebookApp] Kernel shutdown: c22ef7d9-d7d9-41e5-a53d-fd44e4fdbb75
+[E 10:10:41.814 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\handlers.py", line 89, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\gen.py", line 767, in run
+        value = future.result()
+      File "asyncio\futures.py", line 201, in result
+      File "asyncio\tasks.py", line 256, in __step
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, f'Kernel does not exist: {kernel_id}')
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: c22ef7d9-d7d9-41e5-a53d-fd44e4fdbb75)
+[E 10:10:42.217 NotebookApp] {
+      "Host": "localhost:8888",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:8888/notebooks/Realtime%20Object%20Detection.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    }
+[E 10:10:42.218 NotebookApp] 500 POST /api/kernels/c22ef7d9-d7d9-41e5-a53d-fd44e4fdbb75/restart (::1) 404.610000ms referer=http://localhost:8888/notebooks/Realtime%20Object%20Detection.ipynb
+[W 10:10:42.228 NotebookApp] 404 DELETE /api/sessions/7d0954f6-c694-4f23-89f9-d9cbfba92bb4 (::1): Session not found: session_id='7d0954f6-c694-4f23-89f9-d9cbfba92bb4'
+[W 10:10:42.229 NotebookApp] Session not found: session_id='7d0954f6-c694-4f23-89f9-d9cbfba92bb4'
+[W 10:10:42.230 NotebookApp] 404 DELETE /api/sessions/7d0954f6-c694-4f23-89f9-d9cbfba92bb4 (::1) 3.000000ms referer=http://localhost:8888/notebooks/Realtime%20Object%20Detection.ipynb
+[I 10:10:42.429 NotebookApp] Kernel started: 58d61200-d75e-47a3-929d-8f7b48892427, name: python3
+0.03s - Debugger warning: The os.path.realpath.__code__.co_filename (ntpath.py)
+0.00s - is not absolute, which may make the debugger miss breakpoints.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 10:12:11.898 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[W 10:12:11.899 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+[I 10:14:11.861 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[W 10:14:11.863 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+WARNING: Ignoring invalid distribution -pencv-python (c:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages)
+WARNING: Ignoring invalid distribution -pencv-python (c:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages)
+[I 10:16:11.862 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[W 10:16:11.863 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+[I 10:20:07.252 NotebookApp] Starting buffering for 58d61200-d75e-47a3-929d-8f7b48892427:84a2e8dafd004d86b73a3fbf06c76cc4
+[I 10:20:07.262 NotebookApp] Kernel shutdown: 58d61200-d75e-47a3-929d-8f7b48892427
+[E 10:20:11.204 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\handlers.py", line 89, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\gen.py", line 767, in run
+        value = future.result()
+      File "asyncio\futures.py", line 201, in result
+      File "asyncio\tasks.py", line 256, in __step
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, f'Kernel does not exist: {kernel_id}')
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 58d61200-d75e-47a3-929d-8f7b48892427)
+[E 10:20:11.207 NotebookApp] {
+      "Host": "localhost:8888",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:8888/notebooks/Realtime%20Object%20Detection.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    }
+[E 10:20:11.207 NotebookApp] 500 POST /api/kernels/58d61200-d75e-47a3-929d-8f7b48892427/restart (::1) 4.990000ms referer=http://localhost:8888/notebooks/Realtime%20Object%20Detection.ipynb
+[W 10:20:11.225 NotebookApp] 404 DELETE /api/sessions/3d34e905-6601-4311-ba91-b783b0490d0e (::1): Session not found: session_id='3d34e905-6601-4311-ba91-b783b0490d0e'
+[W 10:20:11.226 NotebookApp] Session not found: session_id='3d34e905-6601-4311-ba91-b783b0490d0e'
+[W 10:20:11.227 NotebookApp] 404 DELETE /api/sessions/3d34e905-6601-4311-ba91-b783b0490d0e (::1) 4.000000ms referer=http://localhost:8888/notebooks/Realtime%20Object%20Detection.ipynb
+[I 10:20:11.320 NotebookApp] Kernel started: 1bb95a1a-ae90-49e4-bdb0-69a63f5ab426, name: python3
+0.01s - Debugger warning: The os.path.realpath.__code__.co_filename (ntpath.py)
+0.00s - is not absolute, which may make the debugger miss breakpoints.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 10:20:29.611 NotebookApp] Notebook Realtime Object Detection.ipynb is not trusted
+[W 10:20:29.614 NotebookApp] Trusting notebook /Realtime Object Detection.ipynb
+[I 10:20:32.821 NotebookApp] Starting buffering for 1bb95a1a-ae90-49e4-bdb0-69a63f5ab426:84a2e8dafd004d86b73a3fbf06c76cc4
+[I 10:22:35.571 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 10:26:35.578 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 10:28:35.458 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 10:50:35.450 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 10:52:35.564 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 10:54:35.642 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 10:56:35.579 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 10:58:35.469 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:18:35.454 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:20:35.564 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:22:35.567 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:26:35.604 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:28:35.472 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:30:35.673 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:40:35.630 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:44:35.482 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:46:35.522 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:48:35.663 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:50:35.466 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:52:35.467 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 11:54:35.559 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:00:35.576 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:04:35.460 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:06:35.471 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:12:35.572 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:18:35.544 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[E 12:18:40.062 NotebookApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 584, in _run_callback
+        f = callback(*args, **kwargs)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 308, in stream_callback
+        return callback(self, msg)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\handlers.py", line 572, in _on_zmq_reply
+        super()._on_zmq_reply(stream, msg)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\base\zmqhandlers.py", line 256, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\websocket.py", line 334, in write_message
+        return self.ws_connection.write_message(message, binary=binary)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\websocket.py", line 1081, in write_message
+        fut = self._write_frame(True, opcode, message, flags=flags)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\websocket.py", line 1056, in _write_frame
+        return self.stream.write(frame)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\iostream.py", line 533, in write
+        self._write_buffer.append(data)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\iostream.py", line 157, in append
+        b += data  # type: ignore
+    BufferError: Existing exports of data: object cannot be re-sized
+[E 12:18:44.282 NotebookApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 634, in _handle_events
+        self._handle_recv()
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 663, in _handle_recv
+        self._run_callback(callback, msg)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 584, in _run_callback
+        f = callback(*args, **kwargs)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 308, in stream_callback
+        return callback(self, msg)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\handlers.py", line 572, in _on_zmq_reply
+        super()._on_zmq_reply(stream, msg)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\base\zmqhandlers.py", line 256, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\websocket.py", line 334, in write_message
+        return self.ws_connection.write_message(message, binary=binary)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\websocket.py", line 1081, in write_message
+        fut = self._write_frame(True, opcode, message, flags=flags)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\websocket.py", line 1056, in _write_frame
+        return self.stream.write(frame)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\iostream.py", line 533, in write
+        self._write_buffer.append(data)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\iostream.py", line 157, in append
+        b += data  # type: ignore
+    BufferError: Existing exports of data: object cannot be re-sized
+Exception in callback BaseAsyncIOLoop._handle_events(2980, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(2980, 1)>
+Traceback (most recent call last):
+  File "asyncio\events.py", line 80, in _run
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\platform\asyncio.py", line 192, in _handle_events
+    handler_func(fileobj, events)
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 634, in _handle_events
+    self._handle_recv()
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 663, in _handle_recv
+    self._run_callback(callback, msg)
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 584, in _run_callback
+    f = callback(*args, **kwargs)
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\zmq\eventloop\zmqstream.py", line 308, in stream_callback
+    return callback(self, msg)
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\handlers.py", line 572, in _on_zmq_reply
+    super()._on_zmq_reply(stream, msg)
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\base\zmqhandlers.py", line 256, in _on_zmq_reply
+    self.write_message(msg, binary=isinstance(msg, bytes))
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\websocket.py", line 334, in write_message
+    return self.ws_connection.write_message(message, binary=binary)
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\websocket.py", line 1081, in write_message
+    fut = self._write_frame(True, opcode, message, flags=flags)
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\websocket.py", line 1056, in _write_frame
+    return self.stream.write(frame)
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\iostream.py", line 533, in write
+    self._write_buffer.append(data)
+  File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\iostream.py", line 157, in append
+    b += data  # type: ignore
+BufferError: Existing exports of data: object cannot be re-sized
+[I 12:20:30.739 NotebookApp] Starting buffering for 1bb95a1a-ae90-49e4-bdb0-69a63f5ab426:cb5a3acdd4704c0188c7639b61a2f990
+[I 12:20:30.913 NotebookApp] Discarding 16 buffered messages for 1bb95a1a-ae90-49e4-bdb0-69a63f5ab426:cb5a3acdd4704c0188c7639b61a2f990
+[I 12:20:31.234 NotebookApp] Kernel shutdown: 1bb95a1a-ae90-49e4-bdb0-69a63f5ab426
+[W 12:20:30.913 NotebookApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x0000016AD4222610>
+[E 12:20:36.487 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\handlers.py", line 89, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\tornado\gen.py", line 767, in run
+        value = future.result()
+      File "asyncio\futures.py", line 201, in result
+      File "asyncio\tasks.py", line 256, in __step
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "C:\kandikits\realtime-object-detection\object-detection-env\lib\site-packages\notebook\services\kernels\kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, f'Kernel does not exist: {kernel_id}')
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 1bb95a1a-ae90-49e4-bdb0-69a63f5ab426)
+[E 12:20:36.520 NotebookApp] {
+      "Host": "localhost:8888",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:8888/notebooks/Realtime%20Object%20Detection.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    }
+[E 12:20:36.520 NotebookApp] 500 POST /api/kernels/1bb95a1a-ae90-49e4-bdb0-69a63f5ab426/restart (::1) 41.990000ms referer=http://localhost:8888/notebooks/Realtime%20Object%20Detection.ipynb
+[I 12:20:36.526 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[W 12:20:37.187 NotebookApp] 404 DELETE /api/sessions/66b40d34-3f85-4375-aa95-669b680cf3a2 (::1): Session not found: session_id='66b40d34-3f85-4375-aa95-669b680cf3a2'
+[W 12:20:37.188 NotebookApp] Session not found: session_id='66b40d34-3f85-4375-aa95-669b680cf3a2'
+[W 12:20:37.192 NotebookApp] 404 DELETE /api/sessions/66b40d34-3f85-4375-aa95-669b680cf3a2 (::1) 5.010000ms referer=http://localhost:8888/notebooks/Realtime%20Object%20Detection.ipynb
+[I 12:20:38.599 NotebookApp] Kernel started: d0792166-a5ab-41c6-8c73-9895650823a5, name: python3
+0.03s - Debugger warning: The os.path.realpath.__code__.co_filename (ntpath.py)
+0.00s - is not absolute, which may make the debugger miss breakpoints.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 12:22:35.503 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:24:35.557 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:26:35.552 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:32:35.673 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:48:35.444 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:50:35.449 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:52:35.450 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:54:35.457 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:56:35.448 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 12:58:35.504 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 13:04:35.469 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 13:06:35.603 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 13:10:35.460 NotebookApp] Saving file at /Realtime Object Detection.ipynb
+[I 13:12:35.574 NotebookApp] Saving file at /Realtime Object Detection.ipynb
